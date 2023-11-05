@@ -1,5 +1,24 @@
-.search-bar {
-    display: block;
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    justify-content: space-between;
 }
 
-/* testing the sync */
+.left-section {
+    width: 150px;
+    background-color: darkolivegreen;
+}
+
+.middle-section {
+    flex: 1;
+    max-width: 500px;
+    background-color: darkmagenta;
+    margin-left: 70px;
+    margin-right: 35px;
+}
+
+.right-section {
+    width: 200px;
+    background-color: darkcyan;
+}
